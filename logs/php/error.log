@@ -1,0 +1,119 @@
+[05-Nov-2022 01:24:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woolentorBlocks_get_option() in C:\Users\cnr12\Local Sites\changing-seasons-clothing-co\app\public\wp-content\plugins\woolentor-addons\includes\admin\include\class.template_cpt.php:124
+Stack trace:
+#0 C:\Users\cnr12\Local Sites\changing-seasons-clothing-co\app\public\wp-admin\includes\template.php(1409): Woolentor_Template_CPT->container_width_field(Object(WP_Post), Array)
+#1 C:\Users\cnr12\Local Sites\changing-seasons-clothing-co\app\public\wp-admin\edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 C:\Users\cnr12\Local Sites\changing-seasons-clothing-co\app\public\wp-admin\post.php(206): require('C:\\Users\\cnr12\\...')
+#3 {main}
+  thrown in C:\Users\cnr12\Local Sites\changing-seasons-clothing-co\app\public\wp-content\plugins\woolentor-addons\includes\admin\include\class.template_cpt.php on line 124
+[19-Nov-2022 20:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-content\themes\ecommerce-theme\page-careers.php:18
+Stack trace:
+#0 C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rylot\\...')
+#2 C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\index.php(17): require('C:\\Users\\rylot\\...')
+#3 {main}
+  thrown in C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-content\themes\ecommerce-theme\page-careers.php on line 18
+[19-Nov-2022 23:37:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-content\themes\ecommerce-theme\functions.php on line 83
+[19-Nov-2022 23:37:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\Users\rylot\Local Sites\changing-seasons-clothing-co\app\public\wp-content\themes\ecommerce-theme\functions.php on line 83
+[26-Nov-2022 19:53:59 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\steve\Local Sites\changingseasonsclothingco-133\app\public\wp-content\themes\ecommerce-theme\front-page.php on line 34
+[27-Nov-2022 06:57:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:57:20 UTC] PHP Stack trace:
+[27-Nov-2022 06:57:20 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:0
+[27-Nov-2022 06:57:20 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:22
+[27-Nov-2022 06:57:20 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:57:20 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:57:20 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:57:20 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:57:20 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:57:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:57:24 UTC] PHP Stack trace:
+[27-Nov-2022 06:57:24 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:0
+[27-Nov-2022 06:57:24 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:46
+[27-Nov-2022 06:57:24 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:57:24 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:57:24 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:57:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:57:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:57:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:57:26 UTC] PHP Stack trace:
+[27-Nov-2022 06:57:26 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:0
+[27-Nov-2022 06:57:26 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:22
+[27-Nov-2022 06:57:26 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:57:26 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:57:26 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:57:26 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:57:26 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:59:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:59:07 UTC] PHP Stack trace:
+[27-Nov-2022 06:59:07 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:0
+[27-Nov-2022 06:59:07 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:22
+[27-Nov-2022 06:59:07 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:59:07 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:59:07 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:59:07 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:59:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:59:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:59:09 UTC] PHP Stack trace:
+[27-Nov-2022 06:59:09 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:0
+[27-Nov-2022 06:59:09 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:46
+[27-Nov-2022 06:59:09 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:59:09 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:59:09 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:59:09 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:59:09 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:59:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:59:38 UTC] PHP Stack trace:
+[27-Nov-2022 06:59:38 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\index.php:0
+[27-Nov-2022 06:59:38 UTC] PHP   2. require() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\index.php:17
+[27-Nov-2022 06:59:38 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-blog-header.php:13
+[27-Nov-2022 06:59:38 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:59:38 UTC] PHP   5. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:59:38 UTC] PHP   6. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:59:38 UTC] PHP   7. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:59:38 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 06:59:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 06:59:42 UTC] PHP Stack trace:
+[27-Nov-2022 06:59:42 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:0
+[27-Nov-2022 06:59:42 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-cron.php:46
+[27-Nov-2022 06:59:42 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 06:59:42 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 06:59:42 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 06:59:42 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 06:59:42 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 07:00:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 07:00:07 UTC] PHP Stack trace:
+[27-Nov-2022 07:00:07 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:0
+[27-Nov-2022 07:00:07 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin-ajax.php:22
+[27-Nov-2022 07:00:07 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 07:00:07 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 07:00:07 UTC] PHP   5. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 07:00:07 UTC] PHP   6. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 07:00:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 07:00:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 07:00:07 UTC] PHP Stack trace:
+[27-Nov-2022 07:00:07 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\nav-menus.php:0
+[27-Nov-2022 07:00:07 UTC] PHP   2. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\nav-menus.php:13
+[27-Nov-2022 07:00:07 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-admin\admin.php:34
+[27-Nov-2022 07:00:07 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 07:00:07 UTC] PHP   5. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 07:00:07 UTC] PHP   6. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 07:00:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 07:00:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 07:00:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ecommerce_features' not found or invalid function name in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php on line 308
+[27-Nov-2022 07:00:11 UTC] PHP Stack trace:
+[27-Nov-2022 07:00:11 UTC] PHP   1. {main}() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\index.php:0
+[27-Nov-2022 07:00:11 UTC] PHP   2. require() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\index.php:17
+[27-Nov-2022 07:00:11 UTC] PHP   3. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-blog-header.php:13
+[27-Nov-2022 07:00:11 UTC] PHP   4. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-load.php:50
+[27-Nov-2022 07:00:11 UTC] PHP   5. require_once() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-config.php:91
+[27-Nov-2022 07:00:11 UTC] PHP   6. do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-settings.php:595
+[27-Nov-2022 07:00:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\plugin.php:517
+[27-Nov-2022 07:00:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\class-wp-hook.php:332
+[27-Nov-2022 18:40:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_price_html() on bool in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-content\themes\ecommerce-theme\page-new-in.php:21
+Stack trace:
+#0 C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-blog-header.php(19): require_once('C:\\Users\\cnr12\\...')
+#2 C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\index.php(17): require('C:\\Users\\cnr12\\...')
+#3 {main}
+  thrown in C:\Users\cnr12\Local Sites\changingseasonsclothingco-133\app\public\wp-content\themes\ecommerce-theme\page-new-in.php on line 21
+[01-Dec-2022 01:35:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\steve\Local Sites\changing-seasons-clothing-co-1-4-1\app\public\wp-content\themes\ecommerce-theme\footer.php on line 44
+[01-Dec-2022 01:36:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\steve\Local Sites\changing-seasons-clothing-co-1-4-1\app\public\wp-content\themes\ecommerce-theme\footer.php on line 44
